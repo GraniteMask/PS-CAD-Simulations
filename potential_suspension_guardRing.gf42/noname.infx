@@ -1,0 +1,14 @@
+<output name="potential_suspension_guardRing" device="EMTDC" version="2010" date="2021/12/07" time="03:02:00.000000">
+  <paramlist />
+  <domain name="Time" unit="s" mult="0.0" skew="0.0">
+    <sample rate="4000.0" end="2000" />
+  </domain>
+  <analog>
+    <channel index="0" id="627585683:0" name="E1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    <channel index="1" id="298327548:0" name="E2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    <channel index="2" id="1500939475:0" name="E5" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    <channel index="3" id="2006053269:0" name="E4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+    <channel index="4" id="341781412:0" name="E3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+  </analog>
+  <digital />
+</output>

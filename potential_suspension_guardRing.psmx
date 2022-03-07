@@ -1,0 +1,38 @@
+<Project name="potential_suspension_guardRing">
+  <hierarchy />
+  <messagelist>
+    <message status="warning" label="validation">
+      <Definition scope="potential_suspension_guardRing" name="Station" status="warning" link="66" /><![CDATA[Definition 'Station' has an invalid crc value, it may be corrupt.]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Generating network and source code 'E:\VIT Sem 5\Power System\LAB\My Simulations\potential_suspension_guardRing.gf42\Main.f'.]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Generating 'E:\VIT Sem 5\Power System\LAB\My Simulations\potential_suspension_guardRing.gf42\potential_suspension_guardRing.map'.]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Time for Compile: 79ms  Make: 15ms]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Solve Time = 0ms]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Will execute: call C:\Program Files (x86)\GFortran\4.2.1\bin\gf42vars.bat]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Will execute: make -f potential_suspension_guardRing.mak]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Will execute: E:\VIT Sem 5\Power System\LAB\My Simulations\potential_suspension_guardRing.gf42\\potential_suspension_guardRing.bat]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[E:\VIT Sem 5\Power System\LAB\My Simulations\potential_suspension_guardRing.gf42>call C:\PROGRA~2\GFortran\428484~1.1\bin\gf42vars.bat ]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Compiling generated source 'Station.f' into object code.]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Compiling generated source 'Main.f' into object code.]]></message>
+    <message status="normal" label="build" scope="potential_suspension_guardRing"><![CDATA[Linking object code and libraries into binary 'potential_suspension_guardRing.exe']]></message>
+  </messagelist>
+  <emt>
+    <netlist name="Station" call_count="1" ss_count="0">
+      <signals>
+        <signal name="GND" dim="1" ss_id="0" node_map_count="1" local_storage_index="0">
+          <sg_points />
+          <node_number global="0" sg_local="0" sg_callindex="0" />
+        </signal>
+      </signals>
+      <components>
+        <component id="1911573340" />
+      </components>
+    </netlist>
+  </emt>
+  <views>
+    <view name="Main" zoomlevel="6" scrollx="0" scrolly="0" />
+  </views>
+  <catalog>
+    <group name="(No Label)" />
+  </catalog>
+</Project>
